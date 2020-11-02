@@ -36,3 +36,17 @@ class GitTestingTests: XCTestCase {
   }
 
 }
+
+
+struct GitTesting {
+  var gitPractise: Int
+  func testgitbranching() -> Int {
+    return 120
+  }
+  func eachBranchHasUniqueColor() -> Bool {
+    return true
+  }
+  func doRebase() -> Bool {
+    return true
+  }
+}
